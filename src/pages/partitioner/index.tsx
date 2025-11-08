@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { newId, randomColor } from "../utils";
-import type { TileNode } from "../types";
+import { newId, randomColor } from "./utils";
+import type { TileNode } from "./types";
 
 const Tile: React.FC<{
   node: TileNode;

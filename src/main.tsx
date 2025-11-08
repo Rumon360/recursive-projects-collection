@@ -1,10 +1,12 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router";
 import App from "./App";
-import Partitioner from "./pages/partitioner";
+
 import "./index.css";
-import FileTree from "./pages/file-tree";
+
 import Checkbox from "./pages/checkbox";
+import Partitioner from "./pages/partitioner";
+import FileTree from "./pages/file-tree";
 
 const root = document.getElementById("root")!;
 

@@ -1,10 +1,25 @@
 import { Link } from "react-router";
 
+const projects = [
+  {
+    name: "🪟 Recursive Window Partitioner",
+    link: "/partitioner",
+  },
+  {
+    name: "📁 Recursive File Structure",
+    link: "/file-tree",
+  },
+  {
+    name: "✅ Checkbox Planner Tree",
+    link: "checkbox",
+  },
+];
+
 function App() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center px-6">
-      <div className="max-w-xl w-full text-center space-y-8">
-        <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
+      <div className="max-w-2xl w-full text-center space-y-8">
+        <h1 className="max-w-xl mx-auto text-4xl sm:text-5xl font-bold tracking-tight">
           Recursive Projects Collection
         </h1>
 
@@ -13,20 +28,16 @@ function App() {
           exploring recursion in UI and data structures.
         </p>
 
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-          <Link
-            to="/partitioner"
-            className="px-6 py-3 border border-neutral-300 rounded-lg transition-all duration-200"
-          >
-            🪟 Recursive Window Partitioner
-          </Link>
-
-          <Link
-            to="/file-tree"
-            className="px-6 py-3 border border-neutral-300 rounded-lg transition-all duration-200"
-          >
-            📁 Recursive File Structure
-          </Link>
+        <div className="grid grid-cols-1 sm:grid-cols-2 w-full gap-4 pt-4">
+          {projects.map((project) => (
+            <Link
+              key={project.link}
+              to={project.link}
+              className="px-6 py-3 border border-neutral-300 rounded-lg transition-all duration-200"
+            >
+              {project.name}
+            </Link>
+          ))}
         </div>
         <p className="text-sm text-neutral-400">
           Built with React, TypeScript & TailwindCSS
