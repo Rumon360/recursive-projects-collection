@@ -1,4 +1,3 @@
-// Types
 type LeafNode = {
   type: "leaf";
   id: string;

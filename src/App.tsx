@@ -17,7 +17,6 @@ const Tile: React.FC<{
 
   const remove = () => onUpdate(node.id, null);
 
-  // Render split container
   if (node.type === "split") {
     return (
       <div
@@ -73,7 +72,6 @@ export default function App() {
     color: randomColor(),
   });
 
-  // Update tree recursively
   const update = (targetId: string, replacement: TileNode | null) => {
     function applyUpdate(node: TileNode): TileNode | null {
       // If this is the node we want to update
