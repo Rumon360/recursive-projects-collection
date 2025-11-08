@@ -22,7 +22,7 @@ function App() {
           </Link>
 
           <Link
-            to="/file-structure"
+            to="/file-tree"
             className="px-6 py-3 border border-neutral-300 rounded-lg transition-all duration-200"
           >
             📁 Recursive File Structure

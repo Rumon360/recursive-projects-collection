@@ -15,7 +15,7 @@ Tiles can also be **deleted** dynamically, and the layout tree automatically upd
 
 #### 🔗 Live Demo
 
-[]()
+[https://recursive-projects-collection.netlify.app/partitioner](https://recursive-projects-collection.netlify.app/partitioner)
 
 #### ✨ Features
 
@@ -34,7 +34,7 @@ You can expand or collapse folders, create new files or directories, and visuali
 
 #### 🔗 Live Demo
 
-[]()
+[https://recursive-projects-collection.netlify.app/file-structure](https://recursive-projects-collection.netlify.app/file-structure)
 
 #### ✨ Features
 
