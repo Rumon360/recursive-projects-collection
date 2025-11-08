@@ -34,7 +34,7 @@ function App() {
         <footer className="pt-12 text-sm text-neutral-400">
           Built with <span className="text-red-500">❤️</span> by{" "}
           <a
-            href="hmk360.vercel.app"
+            href="https://hmk360.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors"
