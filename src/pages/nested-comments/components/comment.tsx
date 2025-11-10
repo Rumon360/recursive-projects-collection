@@ -75,7 +75,7 @@ function Comment({
             </div>
           </div>
         ) : (
-          <p className="text-xl font-semibold">{comment.content}</p>
+          <p className="text-lg lg:text-xl font-semibold">{comment.content}</p>
         )}
 
         <div className="mt-2 space-y-1">
