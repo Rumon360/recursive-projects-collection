@@ -1,0 +1,17 @@
+:root {
+  --blue: #0059abcc;
+  --cyan: #0fffa9cc;
+  --yellow: #ffce20cc;
+  --red: #c50000cc;
+}
+.bg-conic-gradient {
+  background: conic-gradient(
+    from var(--angle) at 50% var(--offset),
+    #0000 0deg,
+    var(--blue) 72deg,
+    var(--cyan) 144deg,
+    var(--yellow) 216deg,
+    var(--red) 288deg,
+    #0000 360deg
+  );
+}
