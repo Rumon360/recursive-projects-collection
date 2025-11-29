@@ -9,19 +9,3 @@ html,
 body {
   @apply h-full w-full relative;
 }
-
-.kanban-grid {
-  @apply w-full relative bg-zinc-800/40 h-fit max-h-[calc(100vh-12rem)] overflow-y-auto rounded-lg;
-}
-
-.kanban-grid::-webkit-scrollbar {
-  @apply w-1;
-}
-
-.kanban-grid::-webkit-scrollbar-track {
-  @apply bg-zinc-800;
-}
-
-.kanban-grid::-webkit-scrollbar-thumb {
-  @apply bg-zinc-700 rounded-lg;
-}
