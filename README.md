@@ -69,6 +69,14 @@ A **Kanban Board** built with **React + TypeScript**.
 
 [https://react-projects-collection.netlify.app/kanban-board](https://react-projects-collection.netlify.app/kanban-board)
 
+### 6. 🌀 Elastic Counter
+
+A **Elastic Counter** built with **React + TypeScript**.
+
+#### 🔗 Live Demo
+
+[https://react-projects-collection.netlify.app/elastic-counter](https://react-projects-collection.netlify.app/elastic-counter)
+
 ---
 
 ## 🛠️ Tech Stack
