@@ -1,0 +1,13 @@
+@reference "../../index.css";
+
+.counter-bs {
+  @apply shadow-[inset_0_1px_2px_rgba(0,0,0,0.4),inset_0_-1px_2px_rgba(255,255,255,0.03)];
+}
+
+.counter-value-wrapper {
+  @apply bg-gradient-to-br from-[#6a6a6a] via-[#5a5a5a] to-[#4a4a4a] shadow-[0_4px_8px_rgba(0,0,0,0.3),0_1px_2px_rgba(0,0,0,0.2),inset_0_1px_1px_rgba(255,255,255,0.1),inset_0_-1px_2px_rgba(0,0,0,0.2)] active:shadow-[0_2px_4px_rgba(0,0,0,0.4),inset_0_1px_2px_rgba(0,0,0,0.3)] rounded-full w-16 h-16 flex items-center justify-center;
+}
+
+.icon {
+  @apply w-5 h-5 text-white transition-colors ease-in-out duration-300 drop-shadow-[0_1px_1px_rgba(0,0,0,0.8)];
+}
