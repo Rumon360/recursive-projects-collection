@@ -25,6 +25,10 @@ const projects = [
     name: "🌀 Elastic Counter",
     link: "elastic-counter",
   },
+  {
+    name: "🖥️ NoteShell",
+    link: "noteshell",
+  },
 ];
 
 function App() {

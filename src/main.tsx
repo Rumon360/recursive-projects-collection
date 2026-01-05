@@ -11,6 +11,7 @@ import FileTree from "./pages/file-tree";
 import NestedComments from "./pages/nested-comments";
 import KanbanBoard from "./pages/kanban-board";
 import ElasticCounter from "./pages/elastic-counter";
+import NoteShell from "./pages/note-shell";
 
 const root = document.getElementById("root")!;
 
@@ -24,6 +25,7 @@ ReactDOM.createRoot(root).render(
       <Route path="nested-comments" element={<NestedComments />} />
       <Route path="kanban-board" element={<KanbanBoard />} />
       <Route path="elastic-counter" element={<ElasticCounter />} />
+      <Route path="note-shell" element={<NoteShell />} />
     </Routes>
   </BrowserRouter>
 );

@@ -77,6 +77,14 @@ A **Elastic Counter** built with **React + TypeScript**.
 
 [https://react-projects-collection.netlify.app/elastic-counter](https://react-projects-collection.netlify.app/elastic-counter)
 
+### 7. 🖥️ NoteShell
+
+A **shell-inspired sticky note web app** built with **React + TypeScript**
+
+#### 🔗 Live Demo
+
+[https://react-projects-collection.netlify.app/note-shell](https://react-projects-collection.netlify.app/note-shell)
+
 ---
 
 ## 🛠️ Tech Stack
