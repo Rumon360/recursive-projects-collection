@@ -27,7 +27,7 @@ const projects = [
   },
   {
     name: "🖥️ NoteShell",
-    link: "noteshell",
+    link: "note-shell",
   },
 ];
 
