@@ -93,6 +93,14 @@ A hold to delete button
 
 [https://react-projects-collection.netlify.app/hold-to-delete](https://react-projects-collection.netlify.app/hold-to-delete)
 
+### 9. Tier List
+
+Clean and functional Tier List App from scratch using dnd kit
+
+#### 🔗 Live Demo
+
+[https://react-projects-collection.netlify.app/hold-to-delete](https://react-projects-collection.netlify.app/hold-to-delete)
+
 ---
 
 ## 🛠️ Tech Stack

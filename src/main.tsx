@@ -13,6 +13,7 @@ import KanbanBoard from "./pages/kanban-board";
 import ElasticCounter from "./pages/elastic-counter";
 import NoteShell from "./pages/note-shell";
 import HoldToDelete from "./pages/hold-to-delete";
+import TierList from "./pages/tier-list";
 
 const root = document.getElementById("root")!;
 
@@ -28,6 +29,7 @@ ReactDOM.createRoot(root).render(
       <Route path="elastic-counter" element={<ElasticCounter />} />
       <Route path="note-shell" element={<NoteShell />} />
       <Route path="hold-to-delete" element={<HoldToDelete />} />
+      <Route path="tier-list" element={<TierList />} />
     </Routes>
   </BrowserRouter>
 );

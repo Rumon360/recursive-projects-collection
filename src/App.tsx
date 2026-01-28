@@ -10,6 +10,7 @@ import {
   Heart,
   ChevronRight,
   Trash,
+  ListChevronsUpDown,
 } from "lucide-react";
 
 const projects = [
@@ -60,6 +61,12 @@ const projects = [
     icon: <Trash size={18} strokeWidth={2.5} />,
     link: "/hold-to-delete",
     slug: "hold-to-delete",
+  },
+  {
+    name: "Tier List",
+    icon: <ListChevronsUpDown size={18} strokeWidth={2.5} />,
+    link: "/tier-list",
+    slug: "tier-list",
   },
 ];
 
