@@ -12,6 +12,7 @@ import NestedComments from "./pages/nested-comments";
 import KanbanBoard from "./pages/kanban-board";
 import ElasticCounter from "./pages/elastic-counter";
 import NoteShell from "./pages/note-shell";
+import HoldToDelete from "./pages/hold-to-delete";
 
 const root = document.getElementById("root")!;
 
@@ -26,6 +27,7 @@ ReactDOM.createRoot(root).render(
       <Route path="kanban-board" element={<KanbanBoard />} />
       <Route path="elastic-counter" element={<ElasticCounter />} />
       <Route path="note-shell" element={<NoteShell />} />
+      <Route path="hold-to-delete" element={<HoldToDelete />} />
     </Routes>
   </BrowserRouter>
 );

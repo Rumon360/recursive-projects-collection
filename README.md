@@ -85,6 +85,14 @@ A **shell-inspired sticky note web app** built with **React + TypeScript**
 
 [https://react-projects-collection.netlify.app/note-shell](https://react-projects-collection.netlify.app/note-shell)
 
+### 8. Hold To Delete Button
+
+A hold to delete button
+
+#### 🔗 Live Demo
+
+[https://react-projects-collection.netlify.app/hold-to-delete](https://react-projects-collection.netlify.app/hold-to-delete)
+
 ---
 
 ## 🛠️ Tech Stack
@@ -93,3 +101,4 @@ A **shell-inspired sticky note web app** built with **React + TypeScript**
 - ⚡ **Vite** for fast bundling and hot reload
 - 🎨 **TailwindCSS** for styling
 - 🧭 **React Router DOM** for multi-page routing
+- 🎞️ **Motion** for animations

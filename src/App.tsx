@@ -9,6 +9,7 @@ import {
   Terminal,
   Heart,
   ChevronRight,
+  Trash,
 } from "lucide-react";
 
 const projects = [
@@ -53,6 +54,12 @@ const projects = [
     icon: <Terminal size={18} strokeWidth={2.5} />,
     link: "/note-shell",
     slug: "noteshell-terminal",
+  },
+  {
+    name: "Hold To Delete",
+    icon: <Trash size={18} strokeWidth={2.5} />,
+    link: "/hold-to-delete",
+    slug: "hold-to-delete",
   },
 ];
 
